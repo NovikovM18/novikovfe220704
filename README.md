@@ -1,3 +1,35 @@
+Task:
+Create a React app with a chart component.
+The chart shows the average time spent by a user per page. Here is a design example:
+
+Initial Input data:
+[
+{ name: "Landing Page", time: 7.4 },
+{ name: "Configurator", time: 0.2 },
+{ name: "Check-out", time: 7.0 },
+{ name: "Deal", time: 3.8 },
+]
+Requirements:
+● Chart should have a button, when you click on it data should be changed randomly.
+● Describe adobe button should have autoclick every 30 sec.
+● Chart should be responsive - Iphone X to Desktop.
+● Use font-family Roboto; font-size 16px for text and 20px for title.
+Frameworks:
+● React 18 (last possible version) with Typescript.
+● Jest, RTL or enzyme for testing.
+● Plain CSS/HTML.
+
+Estimated time - 1.5h
+Maximum time - 3h
+Transfer of results:
+Link to Github or Bitbucket source code should be sent right after you have finished your task.
+Please note, your repo name should be YouSurname FE YYMMDD (Example arestovichfe220621) using VALU-X as
+a part of repo name is not allowed.
+Before you transfer result, please check:
+● You did write a Readme file with explanation how to start your app, how to test it etc.
+● You have tested your app and it satisfies the requirements from this document.
+● All used packages are inside package.json
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
