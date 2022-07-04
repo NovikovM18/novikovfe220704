@@ -29,13 +29,13 @@ ChartJS.register(
 );
 
 function Chart() {
-  const [labels, setLabels] = useState(['Landing Page', 'Configurator', 'Check-out', 'Deal']);
+  const labels= ['Landing Page', 'Configurator', 'Check-out', 'Deal'];
   const [data, setData] = useState([7.4, 0.2, 7, 3.8]);
   const [chartData, setChartData] = useState({
     labels: labels,
     datasets: [
       {
-        label: "SPENT TIME(SECOND)",
+        label: "(SECOND)",
         data: data,
         borderColor: ['rgba(54, 162, 235, 0.2)'],
         backgroundColor: ['rgba(54, 162, 235, 0.2)'],
@@ -68,8 +68,10 @@ function Chart() {
   }, [data]);
 
   function setRandomData() {
-    setData(data.map(el => el = 60 * Math.random()))
-  }
+    console.log('set');
+
+    setData(data.map(el => el = 60 * Math.random()));
+  };
 
   useEffect(() => {
     setInterval(() => {
