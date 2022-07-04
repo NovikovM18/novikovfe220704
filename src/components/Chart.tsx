@@ -68,8 +68,6 @@ function Chart() {
   }, [data]);
 
   function setRandomData() {
-    console.log('set');
-
     setData(data.map(el => el = 60 * Math.random()));
   };
 
